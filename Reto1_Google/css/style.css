@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+    header{
+        display: flex;
+        justify-content: end;
+    }
+
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+        .botonesBuscador{
+            display: flex;           
+        }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+        .pieLeft{
+            display: flex;
+            justify-self:start;
+        }
+
+        .pieRight{
+            display: flex;
+            justify-self: end;
+        }
