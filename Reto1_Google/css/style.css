@@ -1,41 +1,65 @@
-body{
-    display: flex;
-    justify-content: center;
+*{
+    text-align: center;
 }
 
-.todo{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
+header{
+    height: 10vh;
 }
 
-    header{
-        display: flex;
-        justify-content: end;
+button{
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#mas{
+    height: 2em;
+    width: 2em;
+}
+
+.signIn{
+    background-color: cornflowerblue;
+    border-color: rgba(0, 0, 0, 0.13);
+    color: white;
+    width: 4em;
+    height: 2em;
+}
+
+.containerGoogle{
+    height: 80vh;
+}
+
+footer{
+    height: 10vh;
+    font-size: 0.7em;
+}
+
+input{
+    text-align: start;
+}
+
+/* ---------------------------------GOOGLE------------------------------- */
+
+.g{
+    font-size: 6em;
+}
+
+.google{
+    font-size: 4em;
+}
+
+    .blue{
+        color: cornflowerblue;
+    }
+    
+    .red{
+        color: rgb(228, 83, 57);
     }
 
-    .cuerpo{
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
+    .yellow{
+        color: rgb(241, 209, 68);
     }
 
-        .botonesBuscador{
-            display: flex;           
-        }
-    footer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .green{
+        color: rgb(44, 158, 93);
     }
-
-        .pieLeft{
-            display: flex;
-            justify-self:start;
-        }
-
-        .pieRight{
-            display: flex;
-            justify-self: end;
-        }
